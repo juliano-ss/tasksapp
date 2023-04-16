@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package controller;
 
 import java.sql.Connection;
@@ -14,14 +11,12 @@ import java.util.List;
 import model.Task;
 import util.ConnectionFactory;
 
-
 /**
  *
  * @author juliano
  */
 public class TaskController {
-    
-    
+
     public void save(Task task) {
 
         String sql = "INSERT INTO tasks (idProject, name, description, completed, notes, deadline, createdAt, updatedAt)"
@@ -34,7 +29,7 @@ public class TaskController {
 
             connection = ConnectionFactory.getConnection();
             statement = connection.prepareStatement(sql);
-            
+
             statement.setInt(1, task.getIdProject());
             statement.setString(2, task.getName());
             statement.setString(3, task.getDescription());
@@ -71,10 +66,10 @@ public class TaskController {
         PreparedStatement statement = null;
 
         try {
-            
+
             connection = ConnectionFactory.getConnection();
             statement = connection.prepareStatement(sql);
-            
+
             statement.setInt(1, task.getIdProject());
             statement.setString(2, task.getName());
             statement.setString(3, task.getDescription());
@@ -159,5 +154,5 @@ public class TaskController {
         return tasks;
 
     }
-    
+
 }

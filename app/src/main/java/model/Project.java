@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 /**
@@ -10,17 +7,15 @@ package model;
  */
 import java.util.Date;
 import java.util.List;
-//import java.util.logging.Logger;
 
 public class Project {
-  
- private int id;
+
+    private int id;
     private String name;
     private String description;
     private List<Task> tasks;
     private Date createdAt;
     private Date updatedAt;
-    //private static final Logger LOG = Logger.getLogger(Project.class.getName());
 
     public Project(int id, String name, String description, List<Task> tasks, Date createdAt, Date updatedAt) {
         this.id = id;
@@ -47,7 +42,8 @@ public class Project {
     public String getName() {
         return name;
     }
-     public void setName(String name) {
+
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -88,4 +84,4 @@ public class Project {
         return name;
     }
 
-}   
+}

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
 /**
@@ -12,7 +9,6 @@ import java.util.Date;
 import java.util.List;
 //import java.util.logging.Logger;
 import javax.swing.text.html.HTML.Tag;
-
 
 /**
  *
@@ -31,7 +27,6 @@ public class Task {
     private boolean completed;
     private Date createdAt;
     private Date updatedAt;
-    //private static final Logger LOG = Logger.getLogger(Task.class.getName());
 
     public Task() {
         this.completed = false;
@@ -39,7 +34,8 @@ public class Task {
         this.updatedAt = new Date();
     }
 
-    public Task(String name, String description, byte status, List<Tag> tags, String notes, Date deadline, boolean Completed, Date createdAt, Date updatedAt) {
+    public Task(String name, String description, byte status, List<Tag> tags, String notes, Date deadline,
+            boolean Completed, Date createdAt, Date updatedAt) {
         this.name = name;
         this.description = description;
         this.status = status;
