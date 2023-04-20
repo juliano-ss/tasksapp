@@ -22,7 +22,7 @@ public class ConnectionFactory {
             Class.forName(DRIVER);
             return DriverManager.getConnection(URL, USER, PASS);
         } catch (Exception ex) {
-            throw new RuntimeException("Erro na conex�o com o banco de dados", ex);
+            throw new RuntimeException("Erro na conexão com o banco de dados", ex);
         }
     }
 

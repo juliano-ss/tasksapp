@@ -1,13 +1,8 @@
 
 package model;
 
-/**
- *
- * @author jotal
- */
 import java.util.Date;
 import java.util.List;
-//import java.util.logging.Logger;
 import javax.swing.text.html.HTML.Tag;
 
 /**
