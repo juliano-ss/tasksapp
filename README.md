@@ -1,4 +1,3 @@
-Ótimo, com essas informações, posso criar um README para o seu projeto.
 
 # TASKAPP
 
