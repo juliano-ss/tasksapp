@@ -40,4 +40,4 @@ Se você quiser contribuir com o TASKAPP, sinta-se à vontade para enviar pull r
 
 ## Observações:
 
-Este projeto não possui interface, pois tem o intuito de estudos o Java backend, mas a classe `app.java` está preparada para realizar todas as operações.
+Este projeto não possui interface, pois tem o intuito de estudos o Java backend, mas a classe `app.java` está preparada para realizar todas as operações. Sinta se a vontade para dar um clone neste projeto.
