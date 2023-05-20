@@ -1,6 +1,4 @@
 
-# TASKAPP
-
 ## Descrição
 
 O TASKAPP é um aplicativo de gerenciamento de tarefas que permite que os usuários criem, atualizem, excluam e listem tarefas e projetos em um banco de dados SQL.
