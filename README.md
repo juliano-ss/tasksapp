@@ -7,7 +7,7 @@ O TASKAPP é um aplicativo de gerenciamento de tarefas que permite que os usuár
 
 Para utilizar o TASKAPP, siga as instruções abaixo:
 
-1. Faça o download do código fonte do projeto em: (inserir link do repositório)
+1. Faça o download do código fonte do projeto em: (inserir link do repositório).
 2. Abra o projeto em sua IDE de preferência.
 3. Crie um banco de dados SQL e configure as informações de conexão no arquivo `connectionFactory.java`.
 4. Execute o aplicativo `app.java` para criar projetos e tarefas e usá-lo.
